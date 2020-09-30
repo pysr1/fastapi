@@ -6,5 +6,5 @@ app = FastAPI()
 
 
 @app.get("/")
-def home(name):
+def home(name string : 'Bryant'):
     return {"message":"Hello " + name}
