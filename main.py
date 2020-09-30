@@ -6,5 +6,15 @@ app = FastAPI()
 
 
 @app.get("/")
+<<<<<<< HEAD
 def home(name string : 'Bryant'):
     return {"message":"Hello " + name}
+=======
+<<<<<<< HEAD
+def home(name : string = 'world'):
+    return {"message":"Hello {}".format(name)}
+=======
+def home():
+    return {"message":"Hello World"}
+>>>>>>> parent of dc0d802... Update main.py
+>>>>>>> parent of e08c8ee... Update main.py
